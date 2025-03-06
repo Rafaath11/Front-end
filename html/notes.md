@@ -10,5 +10,5 @@ HTML:
 - [x] Image Tag - ![semantic](https://www.w3schools.com/html/img_sem_elements.gif).
 - Examples of non semantic elements => div & span <!-- this tells nothing about the content-->
 - Examples of semantic elements => form, table, article...
-- [ ] Typographic Tags.
+- [x] Typographic Tags.
 - [ ] Project.

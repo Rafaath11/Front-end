@@ -1,5 +1,64 @@
 /* selector {property: value} */
+/* The default font size is 16px or 1em */
+/* The fonts overwrite the  */
+html {
+  /* 1em = 16px and 2em = 32px */
+  /* font-size: 2em; */
+}
 
 h3 {
   color: burlywood;
 }
+
+.scribble {
+  font-family: 'poppins', sans-serif;
+  font-size: 1.2em;
+}
+.scribble h2 {
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  color: rgb(255, 0, 0);
+  color: rgb(0, 255, 0);
+  color: rgb(0, 0, 255);
+  color:rgb(120, 120, 120);
+  color: rgba(120, 120, 120, 0.5)
+}
+.scribble h3 {
+  color: #fff;
+  color: #000;
+  color: #3cb371;
+}
+
+h4 {
+  color: hsl(0, 100%, 50%);
+}
+
+.parent {
+  width: 200px;
+  height: 200px;
+  background-color: #3cb371;
+}
+div {
+  width: 50%;
+  height: 100%;
+  background-color: #a86868;
+}
+
+/* font typography */
+
+
+.font {
+  font-family: 'poppins', sans-serif;
+  font-size: 2.3em;
+  font-weight: 600;
+  text-align: center;
+  /* text-transform: uppercase; */
+  text-transform: capitalize;
+  line-height: 3rem;
+  letter-spacing: 0.5rem;
+  word-spacing: 1em;
+  text-decoration: overline;
+  cursor: pointer;
+}
+
